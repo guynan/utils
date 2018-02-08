@@ -66,6 +66,7 @@ use_stdin:
         }
 
         cat_file(fp, flags);
+        fclose(fp);
 
         return 0;
 
